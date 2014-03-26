@@ -18,6 +18,9 @@ public class Server {
         new Server().begin(4444);
     }
     //DataBase database = new DataBase();
+    
+    //Jessica BESAGNI : Dommage que vous n'ayez pas reussit a connecter la BDD
+    
     ArrayList<String> namesListOfTheaterPlays = new ArrayList<String>();
     ServerSocket serverSocket;
 
@@ -79,6 +82,9 @@ public class Server {
                 out_socket.println(theaterPlay);
 
                 //Tableau contenant le nom des pièces et le nombre de places
+                
+                //Jessica BESAGNI : Sympa le nom des films !!!!!!
+                
                 String[][] table = {{"Blanche Neige", "200"},
                                     {"Le Roi Arthur", "3"},
                                     {"Babar, le dernier éléphant", "300"},
