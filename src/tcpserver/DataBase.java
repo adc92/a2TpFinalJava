@@ -11,6 +11,8 @@ import java.sql.*;
 public class DataBase
 {
   Connection conn;
+  
+//Jessica BESAGNI : La connexion n'a pas été faite avec le fichier server :(
 
   public DataBase()
   {
