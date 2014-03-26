@@ -13,6 +13,8 @@ public class DataBase
   Connection conn;
   
 //Jessica BESAGNI : La connexion n'a pas été faite avec le fichier server :(
+//Rép : oui, en effet, nous n'avons pas réussi à nous connecter à la base de 
+//données de l'ISEP. Puis nous avons essayé en local mais cela n'a pas marché..
 
   public DataBase()
   {
